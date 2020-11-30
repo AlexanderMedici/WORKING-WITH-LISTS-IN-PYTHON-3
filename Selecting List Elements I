@@ -1,0 +1,63 @@
+WORKING WITH LISTS IN PYTHON
+Selecting List Elements I
+Chris is interviewing candidates for a job. He will call each candidate in order, represented by a Python list:
+
+calls = ['Ali', 'Bob', 'Cam', 'Doug', 'Ellie']
+First, he’ll call 'Ali', then 'Bob', etc.
+
+In Python, we call the order of an element in a list its index.
+
+Python lists are zero-indexed. This means that the first element in a list has index 0, rather than 1.
+
+Here are the index numbers for that list:
+
+Element	Index
+'Ali'	0
+'Bob'	1
+'Cam'	2
+'Doug'	3
+'Ellie'	4
+In this example, the element with index 2 is 'Cam'.
+
+We can select a single element from a list by using square brackets ([]) and the index of the list item. For example, if we wanted to select the third element from the list, we’d use calls[2]:
+
+>>> print(calls[2])
+'Cam'
+Note that when accessing elements of an array, you must use an int as the index. If you use a float, you will get an error. This can be especially tricky when using division. For example print(calls[4/2]) will result in an error, because 4/2 gets evaluated to the float 2.0.
+
+To solve this problem, you can force the result of your division to be an int by using the int() function. int() takes a number and cuts off the decimal point. For example, int(5.9) and int(5.0) will both become 5. Therefore, calls[int(4/2)] will result in the same value as calls[2], whereas calls[4/2] will result in an error.
+
+Instructions
+1.
+Use square brackets ([ and ]) to select the element with index 4 from the list employees. Save it to the variable index4.
+
+2.
+Use print and len to display how many items are in employees.
+
+
+Stuck? Get a hint
+3.
+Paste the following code into script.py:
+
+print(employees[8])
+What happens? Why?
+
+4.
+Selecting an element that does not exist produces an IndexError.
+
+In the line of code that you pasted, change 8 to a different number so that you don’t get an IndexError.
+
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+
+problem 
+
+employees = ['Michael', 'Dwight', 'Jim', 'Pam', 'Ryan', 'Andy', 'Robert']
+
+solution 
+
+
+employees = ['Michael', 'Dwight', 'Jim', 'Pam', 'Ryan', 'Andy', 'Robert']
+index4 = employees[4]
+print(len(employees))
+print(employees[3])
