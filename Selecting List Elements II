@@ -1,0 +1,44 @@
+WORKING WITH LISTS IN PYTHON
+Selecting List Elements II
+What if we want to select the last element of a list?
+
+We can use the index -1 to select the last item of a list, even when we don’t know how many elements are in a list.
+
+Consider the following list with 5 elements:
+
+list1 = ['a', 'b', 'c', 'd', 'e']
+If we select the -1 element, we get the final element, 'e':
+
+>>> print(list1[-1])
+'e'
+This is the same as selecting the element with index 4:
+
+>>> print(list1[4])
+'e'
+Instructions
+1.
+Use print and len to display the length of shopping_list.
+
+2.
+Get the last element of shopping_list using the -1 index. Save this element to the variable last_element.
+
+3.
+Now select the element with index 5 and save it to the variable element5.
+
+4.
+Use print to display both element5 and last_element.
+
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+
+problem
+
+shopping_list = ['eggs', 'butter', 'milk', 'cucumbers', 'juice', 'cereal']
+
+solution 
+
+shopping_list = ['eggs', 'butter', 'milk', 'cucumbers', 'juice', 'cereal']
+print(len(shopping_list))
+last_element = shopping_list[-1]
+element5 = shopping_list[5]
+print(element5, last_element)
