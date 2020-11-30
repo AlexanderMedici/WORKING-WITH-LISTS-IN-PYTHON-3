@@ -1,0 +1,42 @@
+WORKING WITH LISTS IN PYTHON
+Slicing Lists II
+If we want to select the first 3 elements of a list, we could use the following code:
+
+>>> fruits = ['apple', 'banana', 'cherry', 'date']
+>>> print(fruits[0:3])
+['apple', 'banana', 'cherry']
+When starting at the beginning of the list, it is also valid to omit the 0:
+
+>>> print(fruits[:3])
+['apple', 'banana', 'cherry']
+We can do something similar when selecting the last few items of a list:
+
+>>> print(fruits[2:])
+['cherry' , 'date']
+We can omit the final index when selecting the final elements from a list.
+
+If we want to select the last 3 elements of fruits, we can also use this syntax:
+
+>>> print(fruits[-3:])
+['banana', 'cherry', 'date']
+We can use negative indexes to count backward from the last element.
+
+Instructions
+1.
+Create a new list called start containing the first 3 elements of suitcase.
+
+2.
+Create a new list called end containing the final two elements of suitcase.
+
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+
+problem 
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+
+solution 
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+start = suitcase[:3]
+end = suitcase[4:]
+print(start, end)
