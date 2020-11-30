@@ -1,0 +1,58 @@
+WORKING WITH LISTS IN PYTHON
+Slicing Lists
+Suppose we have a list of letters:
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+Suppose we want to select from b through f.
+
+We can do this using the following syntax: letters[start:end], where:
+
+start is the index of the first element that we want to include in our selection. In this case, we want to start at b, which has index 1.
+end is the index of one more than the last index that we want to include. The last element we want is f, which has index 5, so end needs to be 6.
+sublist = letters[1:6]
+print(sublist)
+This example would yield:
+['b', 'c', 'd', 'e', 'f']
+Notice that the element at index 6 (which is g) is not included in our selection.
+Creating a selection from a list is called slicing.
+
+Instructions
+1.
+Use print to examine the variable beginning.
+
+How many elements does it contain?
+
+2.
+Modify beginning, so that it selects the first 4 elements of suitcase.
+
+3.
+Create a new list called middle that contains the middle two items from suitcase.
+
+
+Hint
+There are 6 items in suitcase, which means its elements start at index 0 and end at index 5.
+
+The middle two elements are index 2 and 3, so we want items starting at index 2 and up to, but not including, index 4.
+
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+
+problem 
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+
+beginning = suitcase[0:2]
+
+
+solution
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+
+beginning = suitcase[0:4]
+
+print(beginning)
+
+middle = suitcase[2:4]
+
+print(middle)
+
