@@ -1,0 +1,54 @@
+
+Working with Lists in Python: Sorting Lists INarrative and Instructions
+Learn
+WORKING WITH LISTS IN PYTHON
+Sorting Lists I
+Sometimes, we want to sort a list in either numerical (1, 2, 3, …) or alphabetical (a, b, c, …) order.
+
+We can sort a list in place using .sort(). Suppose that we have a list of names:
+
+names = ['Xander', 'Buffy', 'Angel', 'Willow', 'Giles']
+print(names)
+This would print:
+
+['Xander', 'Buffy', 'Angel', 'Willow', 'Giles']
+Now we apply .sort():
+
+names.sort()
+print(names)
+And we get:
+
+['Angel', 'Buffy', 'Giles', 'Willow', 'Xander']
+Notice that sort goes after our list, names. If we try sort(names), we will get a NameError.
+
+sort does not return anything. So, if we try to assign names.sort() to a variable, our new variable would be None:
+
+sorted_names = names.sort()
+print(sorted_names)
+This prints:
+
+None
+Although sorted_names is None, the line sorted_names = names.sort() still edited names:
+
+>>> print(names)
+['Angel', 'Buffy', 'Giles', 'Willow', 'Xander']
+Instructions
+1.
+Use sort to sort addresses.
+
+2.
+Use print to see how addresses changed.
+
+3.
+Remove the # in front of the line sort(names). Edit this line so that it runs without producing a NameError.
+
+
+Hint
+Remember, sort comes after the list:
+
+my_list.sort()
+4.
+Use print to examine sorted_cities. Why is it not the sorted version of cities?
+
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
