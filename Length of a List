@@ -1,0 +1,32 @@
+WORKING WITH LISTS IN PYTHON
+Length of a List
+Often, we’ll need to find the number of items in a list, usually called its length.
+
+We can do this using the function len. When we apply len to a list, we get the number of elements in that list:
+
+my_list = [1, 2, 3, 4, 5]
+print(len(my_list))
+This would yield:
+
+5
+Instructions
+1.
+Calculate the length of list1 and save it to the variable list1_len.
+
+2.
+Use print to examine list1_len.
+
+3.
+Change the range command that generates list1 so that it skips 3 instead of 2 between items.
+
+How does this change list1_len?
+
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+problem
+list1 = range(2, 20, 2)
+
+solution 
+list1 = range(2, 20, 3)
+list1_len = len(list1)
+print(list1_len)
