@@ -1,0 +1,84 @@
+WORKING WITH LISTS IN PYTHON
+Review
+In this lesson, we learned how to:
+
+Get the length of a list
+Select subsets of a list (called slicing)
+Count the number of times that an element appears in a list
+Sort a list of items
+Instructions
+1.
+inventory is a list of items that are in the warehouse for Bob’s Furniture. How many items are in the warehouse?
+
+Save your answer to inventory_len.
+
+
+Hint
+Use len to find the number of items in inventory
+
+2.
+Select the first element in inventory. Save it to the variable first.
+
+
+Hint
+If we wanted to select the second element in inventory, we would use:
+
+second = inventory[1]
+Remember that Python lists are zero-indexed.
+
+3.
+Select the last item from inventory and save it to the variable last.
+
+
+Hint
+The last item has index -1.
+
+4.
+Select items from the inventory starting at index 2 and up to, but not including, index 6.
+
+Save your answer to inventory_2_6.
+
+
+Hint
+If we wanted to select items from the inventory starting at index 5 and up to, but not including, index 7, we would use:
+
+inventory_5_7 = inventory[5:7]
+5.
+Select the first 3 items of inventory and save it to the variable first_3.
+
+
+Hint
+If we wanted to select the first 5 items from inventory, we would use:
+
+inventory[:5]
+6.
+How many 'twin bed's are in inventory? Save your answer to twin_beds.
+
+
+Hint
+If we wanted to know how many 'dresser's were in inventory, we would use:
+
+num_dressers = inventory.count('dresser')
+7.
+Sort inventory using .sort().
+
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+
+problem 
+
+inventory = ['twin bed', 'twin bed', 'headboard', 'queen bed', 'king bed', 'dresser', 'dresser', 'table', 'table', 'nightstand', 'nightstand', 'king bed', 'king bed', 'twin bed', 'twin bed', 'sheets', 'sheets', 'pillow', 'pillow']
+
+solution 
+
+inventory = ['twin bed', 'twin bed', 'headboard', 'queen bed', 'king bed', 'dresser', 'dresser', 'table', 'table', 'nightstand', 'nightstand', 'king bed', 'king bed', 'twin bed', 'twin bed', 'sheets', 'sheets', 'pillow', 'pillow']
+
+inventory_len = len(inventory)
+first = inventory[0]
+last = inventory[-1]
+inventory_2_6 = inventory[2:6]
+first_3 = inventory[:3]
+twin_beds = inventory.count('twin bed')
+inventory.sort()
+
+
