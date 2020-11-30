@@ -1,0 +1,41 @@
+WORKING WITH LISTS IN PYTHON
+Sorting Lists II
+A second way of sorting a list is to use sorted. sorted is different from .sort() in several ways:
+
+It comes before a list, instead of after.
+It generates a new list.
+Let’s return to our list of names:
+
+names = ['Xander', 'Buffy', 'Angel', 'Willow', 'Giles']
+Using sorted, we can create a new list, called sorted_names:
+
+sorted_names = sorted(names)
+print(sorted_names)
+This yields the list sorted alphabetically:
+
+['Angel', 'Buffy', 'Giles', 'Willow', 'Xander']
+Note that using sorted did not change names:
+
+>>> print(names)
+['Xander', 'Buffy', 'Angel', 'Willow', 'Giles']
+Instructions
+1.
+Use sorted to order games and create a new list called games_sorted.
+
+2.
+Use print to inspect games and games_sorted. How are they different?
+
+Concept Review
+Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
+
+problem 
+
+games = ['Portal', 'Minecraft', 'Pacman', 'Tetris', 'The Sims', 'Pokemon']
+
+solution 
+
+games = ['Portal', 'Minecraft', 'Pacman', 'Tetris', 'The Sims', 'Pokemon']
+
+games_sorted = sorted(games)
+print(games)
+print(games_sorted)
